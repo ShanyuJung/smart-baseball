@@ -5,12 +5,9 @@ theme: seriph
 # like them? see https://unsplash.com/collections/94734566/slidev
 background: https://cover.sli.dev
 # some information about your slides (markdown enabled)
-title: Welcome to Slidev
+title: 聰明看棒球
 info: |
-  ## Slidev Starter Template
-  Presentation slides for developers.
-
-  Learn more at [Sli.dev](https://sli.dev)
+  ## Smart Baseball: The Story Behind the Old Stats That Are Ruining the Game, the New Ones That Are Running It, and the Right Way to Think About Baseball
 # apply unocss classes to the current slide
 class: text-center
 # https://sli.dev/features/drawing
@@ -22,25 +19,17 @@ transition: slide-left
 mdc: true
 ---
 
-# Welcome to Slidev
+# 聰明看棒球
 
-Presentation slides for developers
+<h3 class='sub-title'>賽伯計量學如何打破舊思維，改變棒球傳統文化</h3>
 
-<div class="pt-12">
-  <span @click="$slidev.nav.next" class="px-2 py-1 rounded cursor-pointer" hover="bg-white bg-opacity-10">
-    Press Space for next page <carbon:arrow-right class="inline"/>
-  </span>
-</div>
-
-<div class="abs-br m-6 flex gap-2">
-  <button @click="$slidev.nav.openInEditor()" title="Open in Editor" class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
-    <carbon:edit />
-  </button>
-  <a href="https://github.com/slidevjs/slidev" target="_blank" alt="GitHub" title="Open in GitHub"
-    class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
-    <carbon-logo-github />
-  </a>
-</div>
+<style>
+  .sub-title{
+    width: 75%;
+    opacity: 0.7;
+    margin: auto;
+  }
+</style>
 
 <!--
 The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
@@ -569,8 +558,10 @@ dragPos:
 square: 691,32,167,\_,-16
 
 ---
+
 dragPos:
-  square: -67,0,0,0
+square: -67,0,0,0
+
 ---
 
 # Draggable Elements
@@ -618,7 +609,6 @@ src: ./pages/imported-slides.md
 hide: false
 
 ---
-
 
 ---
 
